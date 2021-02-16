@@ -1,0 +1,17 @@
+{"Wells":[
+     { "value": "Well_1",
+       "label": "Well_1",
+       "img": "https://i1.wp.com/lmld.org/wp-content/uploads/2012/07/Chocolate-Ice-Cream-3.jpg?w=750&ssl=1"
+     },
+    {
+      "value": "Well_2",
+      "label": "Well_2",
+      "img":"https://i1.wp.com/lmld.org/wp-content/uploads/2018/07/Strawberry-Ice-Cream-6.jpg?w=700&ssl=1"
+    },
+  {
+    "value": "Well_3",
+    "label": "Well_3" ,
+    "img":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/4/5/2/FNM_050112-Ted-Farmers-Market-001_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371606862953.jpeg"
+  }
+
+  ]}
