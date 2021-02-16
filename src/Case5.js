@@ -40,7 +40,8 @@ handleUpload(e){
     render() {
         return (
             <div>
-                <h1>THE FORM </h1>
+                <h3>JUA metrics results </h3>
+		<h4>Upload a *.png file</h4>
 				<form>
 				<div>
 				<label>Select File</label>
