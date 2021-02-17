@@ -11,25 +11,25 @@ import TableRow from '@material-ui/core/TableRow';
 
 const columns = [
   { id: 'name', label: 'Well Name', minWidth: 100 },
-  { id: 'accuracy', label: 'Accuracy', minWidth: 40,align: 'right',format: (value) => value.toFixed(2), },
+  { id: 'accuracy', label: 'Accuracy', minWidth: 30,align: 'right',format: (value) => value.toFixed(2), },
   {
     id: 'precision',
     label: 'Precision',
-    minWidth: 40,
+    minWidth: 30,
     align: 'right',
     format: (value) => value.toFixed(2),
   },
   {
     id: 'recall',
     label: 'Recall',
-    minWidth: 40,
+    minWidth: 30,
     align: 'right',
     format: (value) => value.toFixed(2),
   },
   {
     id: 'f1score',
     label: 'F1-score',
-    minWidth: 40,
+    minWidth: 30,
     align: 'right',
     format: (value) => value.toFixed(2),
   },
