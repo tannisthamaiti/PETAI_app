@@ -1,6 +1,7 @@
 import DataTable from 'react-data-table-component';
 import {Component} from "react";
 import React from 'react';
+import StickyHeadTable from './StickyHeader.js';
 
 const customStyles = {
   rows: {
@@ -9,19 +10,26 @@ const customStyles = {
         maxWidth: '40px',
     }
   },
-  headCells: {
-    style: {
-      paddingLeft: '8px', // override the cell padding for head cells
-      paddingRight: '8px',
-        maxWidth: '40px',
-    },
-  },
+  
   cells: {
     style: {
       paddingLeft: '8px', // override the cell padding for data cells
       paddingRight: '8px',
     },
   },
+  head: {
+  style: {
+    backgroundColor: 'black',
+    color: 'white',
+  }},
+  body: {
+	  style: {
+    fontSize: 14,
+  }},
+  table: {
+	  style: {
+    minWidth: 700,
+  }}
 };
 
 
@@ -103,12 +111,8 @@ class Case2 extends Component {
         return (
               <div>
           <h3>Well Correlation Metrices</h3>
-      <DataTable
-        //title="Well Correlation Metrices"
-        columns={columns}
-        data={data}
-        customStyles={customStyles}
-      />
+    
+	  <StickyHeadTable/>
       </div>
         );
       } else {

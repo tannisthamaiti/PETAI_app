@@ -64,7 +64,7 @@ class WellSearch extends React.Component {
     return (
      <div >
          <h4> Select clustering types: </h4>
-       <FormControl minWidth= "120px">
+       <FormControl className={classes.formControl}>
         <InputLabel id="demo-simple-select-label">Wells</InputLabel>
         <Select options={this.state.selectOptions} onChange={this.handleChange.bind(this)}  />
         <p></p>
