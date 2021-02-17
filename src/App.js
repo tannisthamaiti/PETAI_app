@@ -5,7 +5,6 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Case1 from "./Case1";
 import Case2 from "./Case2";
 import WellSearch from './WellSearch';
-//import WellSearchDropdown from './WellSearchDropdown';
 import SimpleSelect from './Dropdown';
 import Case5 from "./Case5";
 import Header from "./Header";
