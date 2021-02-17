@@ -6,7 +6,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
-import './dropdown.css';
+import './WellSearch.css';
 
 
 
@@ -45,26 +45,19 @@ class WellSearch extends React.Component {
   componentDidMount(){
       this.getOptions()
   }
-  getStyles(){
-    const useStyles = makeStyles((theme) => ({
-  formControl: {
-    margin: theme.spacing(1),
-    minWidth: 120,
-  },
-  selectEmpty: {
-    marginTop: theme.spacing(2),
-  },
-}));
-
-  }
+  
 
   render() {
-    const classes = this.getStyles.bind(this);
+	  
+	  
+	  
+	  
+
     console.log(this.state.selectOptions)
     return (
-     <div >
+     <div className ="demo" >
          <h4> Select clustering types: </h4>
-       <FormControl className={classes.formControl}>
+       <FormControl className="dropdown_option">
         <InputLabel id="demo-simple-select-label">Wells</InputLabel>
         <Select options={this.state.selectOptions} onChange={this.handleChange.bind(this)}  />
         <p></p>
