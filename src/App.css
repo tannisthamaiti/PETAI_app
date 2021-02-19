@@ -77,6 +77,26 @@
 
 
 }
+.item3 {
+  width: 70%;
+  /*padding-bottom: 55%; /* Same as width, sets height */
+  margin-bottom: 0.5%; /* (100-32*3)/2 */
+  position: left;
+  flex-grow: 1;
+  background-color: #C0C0C0;
+  height: 700px;
+  margin-left: 2%;
+}
+.item4 {
+  width: 23%;
+  /*padding-bottom: 55%; /* Same as width, sets height */
+  margin-bottom: 0.5%; /* (100-32*3)/2 */
+  position: left;
+  flex-grow: 1;
+  background-color: #C0C0C0;
+  height: 700px;
+  margin-left: 2%;
+}
 .head1{
 
 width:100%;

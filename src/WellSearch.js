@@ -56,7 +56,7 @@ class WellSearch extends React.Component {
     console.log(this.state.selectOptions)
     return (
      <div className ="demo" >
-         <h4> Select clustering types: </h4>
+         <h4> Select Well Name: </h4>
        <FormControl className="dropdown_option">
         <InputLabel id="demo-simple-select-label">Wells</InputLabel>
         <Select options={this.state.selectOptions} onChange={this.handleChange.bind(this)}  />
